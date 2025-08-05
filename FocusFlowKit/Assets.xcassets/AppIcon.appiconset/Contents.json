@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "create-logo--boost-your-productivity-and-well-bein 1.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

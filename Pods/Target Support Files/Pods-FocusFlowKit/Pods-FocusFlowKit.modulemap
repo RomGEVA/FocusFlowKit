@@ -1,0 +1,6 @@
+framework module Pods_FocusFlowKit {
+  umbrella header "Pods-FocusFlowKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741785652E42446F00F6CC73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417855B2E42446F00F6CC73 /* AppDelegate.swift */; };
+		741785662E42446F00F6CC73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785622E42446F00F6CC73 /* SceneDelegate.swift */; };
+		741785672E42446F00F6CC73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785632E42446F00F6CC73 /* ViewController.swift */; };
+		741785682E42446F00F6CC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7417855C2E42446F00F6CC73 /* Assets.xcassets */; };
+		7417856A2E42446F00F6CC73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7417855F2E42446F00F6CC73 /* LaunchScreen.storyboard */; };
+		7417856B2E42446F00F6CC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741785612E42446F00F6CC73 /* Main.storyboard */; };
+		741785882E42455200F6CC73 /* Phase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785852E42455200F6CC73 /* Phase.swift */; };
+		741785892E42455200F6CC73 /* SessionStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785862E42455200F6CC73 /* SessionStat.swift */; };
+		7417858C2E42455500F6CC73 /* FocusFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417858A2E42455500F6CC73 /* FocusFlowViewModel.swift */; };
+		741785962E42455800F6CC73 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417858D2E42455800F6CC73 /* CircleTimerView.swift */; };
+		741785972E42455800F6CC73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417858E2E42455800F6CC73 /* ContentView.swift */; };
+		741785982E42455800F6CC73 /* LiveBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417858F2E42455800F6CC73 /* LiveBackgroundView.swift */; };
+		741785992E42455800F6CC73 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785902E42455800F6CC73 /* OnboardingView.swift */; };
+		7417859A2E42455800F6CC73 /* SessionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785912E42455800F6CC73 /* SessionHistoryView.swift */; };
+		7417859B2E42455800F6CC73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785922E42455800F6CC73 /* SettingsView.swift */; };
+		7417859C2E42455800F6CC73 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785932E42455800F6CC73 /* StatsView.swift */; };
+		7417859D2E42455800F6CC73 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785942E42455800F6CC73 /* TimerView.swift */; };
+		741785A22E42456300F6CC73 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417859F2E42456300F6CC73 /* InternetViewController.swift */; };
+		741785A32E42456300F6CC73 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417859E2E42456300F6CC73 /* CheckLink.swift */; };
+		741785A42E42456300F6CC73 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741785A02E42456300F6CC73 /* LoaderViewController.swift */; };
+		741785A72E4245A000F6CC73 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 741785A62E4245A000F6CC73 /* OneSignalExtension */; };
+		741785A92E4245A000F6CC73 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 741785A82E4245A000F6CC73 /* OneSignalFramework */; };
+		741785AB2E4245A000F6CC73 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 741785AA2E4245A000F6CC73 /* OneSignalInAppMessages */; };
+		741785AD2E4245A000F6CC73 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 741785AC2E4245A000F6CC73 /* OneSignalLocation */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		741785432E42445E00F6CC73 /* FocusFlowKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusFlowKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7417855B2E42446F00F6CC73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7417855C2E42446F00F6CC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7417855D2E42446F00F6CC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7417855E2E42446F00F6CC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741785602E42446F00F6CC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741785622E42446F00F6CC73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		741785632E42446F00F6CC73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		741785852E42455200F6CC73 /* Phase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase.swift; sourceTree = "<group>"; };
+		741785862E42455200F6CC73 /* SessionStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStat.swift; sourceTree = "<group>"; };
+		7417858A2E42455500F6CC73 /* FocusFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusFlowViewModel.swift; sourceTree = "<group>"; };
+		7417858D2E42455800F6CC73 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
+		7417858E2E42455800F6CC73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7417858F2E42455800F6CC73 /* LiveBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBackgroundView.swift; sourceTree = "<group>"; };
+		741785902E42455800F6CC73 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		741785912E42455800F6CC73 /* SessionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHistoryView.swift; sourceTree = "<group>"; };
+		741785922E42455800F6CC73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		741785932E42455800F6CC73 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		741785942E42455800F6CC73 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		7417859E2E42456300F6CC73 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7417859F2E42456300F6CC73 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		741785A02E42456300F6CC73 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		88CB7D1F34510AF3BC0AAF77 /* Pods-FocusFlowKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusFlowKit.debug.xcconfig"; path = "Target Support Files/Pods-FocusFlowKit/Pods-FocusFlowKit.debug.xcconfig"; sourceTree = "<group>"; };
+		995C5908ECD9F2F4B695D381 /* Pods-FocusFlowKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusFlowKit.release.xcconfig"; path = "Target Support Files/Pods-FocusFlowKit/Pods-FocusFlowKit.release.xcconfig"; sourceTree = "<group>"; };
+		B9973F33CBFF2FBCC7A87EE1 /* Pods_FocusFlowKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusFlowKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741785402E42445E00F6CC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741785AB2E4245A000F6CC73 /* OneSignalInAppMessages in Frameworks */,
+				741785A92E4245A000F6CC73 /* OneSignalFramework in Frameworks */,
+				741785AD2E4245A000F6CC73 /* OneSignalLocation in Frameworks */,
+				741785A72E4245A000F6CC73 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7417853A2E42445E00F6CC73 = {
+			isa = PBXGroup;
+			children = (
+				741785642E42446F00F6CC73 /* FocusFlowKit */,
+				741785442E42445E00F6CC73 /* Products */,
+				8495D9786D07BB834CFF86F5 /* Pods */,
+				FA111436EF949182575E9612 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		741785442E42445E00F6CC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741785432E42445E00F6CC73 /* FocusFlowKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741785642E42446F00F6CC73 /* FocusFlowKit */ = {
+			isa = PBXGroup;
+			children = (
+				7417855B2E42446F00F6CC73 /* AppDelegate.swift */,
+				7417855C2E42446F00F6CC73 /* Assets.xcassets */,
+				7417855D2E42446F00F6CC73 /* Info.plist */,
+				7417855F2E42446F00F6CC73 /* LaunchScreen.storyboard */,
+				741785612E42446F00F6CC73 /* Main.storyboard */,
+				741785622E42446F00F6CC73 /* SceneDelegate.swift */,
+				741785632E42446F00F6CC73 /* ViewController.swift */,
+				741785872E42455200F6CC73 /* Models */,
+				7417858B2E42455500F6CC73 /* ViewModels */,
+				741785952E42455800F6CC73 /* Views */,
+			);
+			path = FocusFlowKit;
+			sourceTree = "<group>";
+		};
+		741785872E42455200F6CC73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				741785852E42455200F6CC73 /* Phase.swift */,
+				741785862E42455200F6CC73 /* SessionStat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7417858B2E42455500F6CC73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7417858A2E42455500F6CC73 /* FocusFlowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		741785952E42455800F6CC73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7417858D2E42455800F6CC73 /* CircleTimerView.swift */,
+				7417858E2E42455800F6CC73 /* ContentView.swift */,
+				7417858F2E42455800F6CC73 /* LiveBackgroundView.swift */,
+				741785902E42455800F6CC73 /* OnboardingView.swift */,
+				741785912E42455800F6CC73 /* SessionHistoryView.swift */,
+				741785922E42455800F6CC73 /* SettingsView.swift */,
+				741785932E42455800F6CC73 /* StatsView.swift */,
+				741785942E42455800F6CC73 /* TimerView.swift */,
+				741785A12E42456300F6CC73 /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		741785A12E42456300F6CC73 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7417859E2E42456300F6CC73 /* CheckLink.swift */,
+				7417859F2E42456300F6CC73 /* InternetViewController.swift */,
+				741785A02E42456300F6CC73 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		8495D9786D07BB834CFF86F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88CB7D1F34510AF3BC0AAF77 /* Pods-FocusFlowKit.debug.xcconfig */,
+				995C5908ECD9F2F4B695D381 /* Pods-FocusFlowKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA111436EF949182575E9612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9973F33CBFF2FBCC7A87EE1 /* Pods_FocusFlowKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741785422E42445E00F6CC73 /* FocusFlowKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741785562E42445F00F6CC73 /* Build configuration list for PBXNativeTarget "FocusFlowKit" */;
+			buildPhases = (
+				0763A0FD44C7F43016FD8EF6 /* [CP] Check Pods Manifest.lock */,
+				7417853F2E42445E00F6CC73 /* Sources */,
+				741785402E42445E00F6CC73 /* Frameworks */,
+				741785412E42445E00F6CC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusFlowKit;
+			productName = FocusFlowKit;
+			productReference = 741785432E42445E00F6CC73 /* FocusFlowKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7417853B2E42445E00F6CC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					741785422E42445E00F6CC73 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 7417853E2E42445E00F6CC73 /* Build configuration list for PBXProject "FocusFlowKit" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7417853A2E42445E00F6CC73;
+			packageReferences = (
+				741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
+			productRefGroup = 741785442E42445E00F6CC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741785422E42445E00F6CC73 /* FocusFlowKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741785412E42445E00F6CC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741785682E42446F00F6CC73 /* Assets.xcassets in Resources */,
+				7417856A2E42446F00F6CC73 /* LaunchScreen.storyboard in Resources */,
+				7417856B2E42446F00F6CC73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0763A0FD44C7F43016FD8EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocusFlowKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7417853F2E42445E00F6CC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741785962E42455800F6CC73 /* CircleTimerView.swift in Sources */,
+				741785972E42455800F6CC73 /* ContentView.swift in Sources */,
+				741785982E42455800F6CC73 /* LiveBackgroundView.swift in Sources */,
+				741785992E42455800F6CC73 /* OnboardingView.swift in Sources */,
+				7417859A2E42455800F6CC73 /* SessionHistoryView.swift in Sources */,
+				741785A22E42456300F6CC73 /* InternetViewController.swift in Sources */,
+				741785A32E42456300F6CC73 /* CheckLink.swift in Sources */,
+				741785A42E42456300F6CC73 /* LoaderViewController.swift in Sources */,
+				7417859B2E42455800F6CC73 /* SettingsView.swift in Sources */,
+				7417859C2E42455800F6CC73 /* StatsView.swift in Sources */,
+				7417859D2E42455800F6CC73 /* TimerView.swift in Sources */,
+				741785652E42446F00F6CC73 /* AppDelegate.swift in Sources */,
+				741785662E42446F00F6CC73 /* SceneDelegate.swift in Sources */,
+				741785882E42455200F6CC73 /* Phase.swift in Sources */,
+				741785892E42455200F6CC73 /* SessionStat.swift in Sources */,
+				7417858C2E42455500F6CC73 /* FocusFlowViewModel.swift in Sources */,
+				741785672E42446F00F6CC73 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7417855F2E42446F00F6CC73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7417855E2E42446F00F6CC73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		741785612E42446F00F6CC73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741785602E42446F00F6CC73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741785572E42445F00F6CC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CB7D1F34510AF3BC0AAF77 /* Pods-FocusFlowKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusFlowKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusFlowLine;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow36w.loti5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		741785582E42445F00F6CC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995C5908ECD9F2F4B695D381 /* Pods-FocusFlowKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusFlowKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusFlowLine;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow36w.loti5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		741785592E42445F00F6CC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7417855A2E42445F00F6CC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7417853E2E42445E00F6CC73 /* Build configuration list for PBXProject "FocusFlowKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741785592E42445F00F6CC73 /* Debug */,
+				7417855A2E42445F00F6CC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741785562E42445F00F6CC73 /* Build configuration list for PBXNativeTarget "FocusFlowKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741785572E42445F00F6CC73 /* Debug */,
+				741785582E42445F00F6CC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		741785A62E4245A000F6CC73 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		741785A82E4245A000F6CC73 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		741785AA2E4245A000F6CC73 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		741785AC2E4245A000F6CC73 /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 741785A52E4245A000F6CC73 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalLocation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7417853B2E42445E00F6CC73 /* Project object */;
+}
