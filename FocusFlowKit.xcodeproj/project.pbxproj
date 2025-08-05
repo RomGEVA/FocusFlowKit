@@ -56,6 +56,7 @@
 		7417859E2E42456300F6CC73 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
 		7417859F2E42456300F6CC73 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		741785A02E42456300F6CC73 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		741786172E42834D00F6CC73 /* FocusFlowKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusFlowKit.entitlements; sourceTree = "<group>"; };
 		88CB7D1F34510AF3BC0AAF77 /* Pods-FocusFlowKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusFlowKit.debug.xcconfig"; path = "Target Support Files/Pods-FocusFlowKit/Pods-FocusFlowKit.debug.xcconfig"; sourceTree = "<group>"; };
 		995C5908ECD9F2F4B695D381 /* Pods-FocusFlowKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusFlowKit.release.xcconfig"; path = "Target Support Files/Pods-FocusFlowKit/Pods-FocusFlowKit.release.xcconfig"; sourceTree = "<group>"; };
 		B9973F33CBFF2FBCC7A87EE1 /* Pods_FocusFlowKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocusFlowKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +98,7 @@
 		741785642E42446F00F6CC73 /* FocusFlowKit */ = {
 			isa = PBXGroup;
 			children = (
+				741786172E42834D00F6CC73 /* FocusFlowKit.entitlements */,
 				7417855B2E42446F00F6CC73 /* AppDelegate.swift */,
 				7417855C2E42446F00F6CC73 /* Assets.xcassets */,
 				7417855D2E42446F00F6CC73 /* Info.plist */,
@@ -319,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusFlowKit/FocusFlowKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -353,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FocusFlowKit/FocusFlowKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
